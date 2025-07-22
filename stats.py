@@ -34,4 +34,5 @@ def sort_chars(num_of_letters):
             new_dict.append(char)
            #print(f"{char['char']}: {char['count']}")
     new_dict.sort(key=lambda x: x['count'], reverse=True)
+    
     return new_dict
